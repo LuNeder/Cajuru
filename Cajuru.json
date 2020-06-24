@@ -5437,7 +5437,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.928
+        "zoomFactor": 1.192
       },
       "objectsGroups": [],
       "variables": [],
@@ -5510,9 +5510,39 @@
           "locked": false,
           "name": "fundoCinza",
           "width": 868,
-          "x": -40,
-          "y": -63,
+          "x": -30,
+          "y": -72,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "width": 185,
+          "x": 4,
+          "y": 472,
+          "zOrder": 200001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "locked": false,
+          "name": "GameJolt",
+          "width": 238,
+          "x": 215,
+          "y": 472,
+          "zOrder": 200002,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5673,6 +5703,44 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "GitHub",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ver no GitHub",
+          "font": "",
+          "characterSize": 54,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "GameJolt",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ver na GameJolt",
+          "font": "",
+          "characterSize": 54,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [],
