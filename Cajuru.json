@@ -905,6 +905,15 @@
         "name": "fundoBranco-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoCinza-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoCinza-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5405,18 +5414,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 59,
       "disableInputWhenNotFocused": true,
       "mangledName": "Informa_231_245es",
       "name": "Informações",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 59,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 59,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -5428,7 +5437,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 1.288
       },
       "objectsGroups": [],
       "variables": [],
@@ -5489,6 +5498,21 @@
           "x": 0,
           "y": 229,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 738,
+          "layer": "",
+          "locked": false,
+          "name": "fundoCinza",
+          "width": 868,
+          "x": -40,
+          "y": -63,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5610,6 +5634,45 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "fundoCinza",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fundoCinza",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fundoCinza-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [],
