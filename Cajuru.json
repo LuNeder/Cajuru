@@ -896,6 +896,15 @@
         "name": "Arquivos\\C- Background 5.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fundoBranco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundoBranco-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4038,7 +4047,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.4764
+        "zoomFactor": 0.7884
       },
       "objectsGroups": [],
       "variables": [
@@ -5432,15 +5441,64 @@
           "locked": false,
           "name": "NewObject",
           "width": 0,
-          "x": 1,
-          "y": -1,
+          "x": -1,
+          "y": 1,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "locked": false,
+          "name": "LICENSE",
+          "width": 523,
+          "x": 1,
+          "y": 4,
+          "zOrder": 200000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "locked": false,
+          "name": "fundoBranco",
+          "width": 646,
+          "x": -121,
+          "y": -149,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "LICENSE",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Copyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work.",
+          "font": "",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
         {
           "name": "NewObject",
           "tags": "",
@@ -5460,6 +5518,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\C- Background 1-3.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fundoBranco",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fundoBranco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fundoBranco-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
