@@ -7,7 +7,7 @@ GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https:/
 # Abrindo no GDevelop e compilando
 Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDrive\Construct\Cajuru
 
-**Se você não tem um disco E: em seu computador,** você pode criar um disco E: falso que redirecione para o disco C: seguindo este tutorial: [https://youtu.be/qp6R4H8yRTM](https://youtu.be/qp6R4H8yRTM)
+**Se você não tem um disco E: em seu computador,** você pode criar um disco E: falso que redirecione para o disco C: seguindo este tutorial: [https://youtu.be/qp6R4H8yRTM](https://youtu.be/qp6R4H8yRTM) (Monte como E: ao invés de Z: quando chegar nessa parte do tutorial)
 
 **Se o seu computador não utilizar o sistema operacional Windows,** use uma Máquina Virtual com Windows para abrir esse projeto no GDevelop. Apesar de o jogo suportar vários sistemas operacionais, o código-fonte só pode ser aberto no Windows por causa da forma que o GDevelop funciona.
 
