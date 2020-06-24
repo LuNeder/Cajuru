@@ -5437,7 +5437,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.192
+        "zoomFactor": 1.216
       },
       "objectsGroups": [],
       "variables": [],
@@ -5460,7 +5460,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 320,
+          "height": 244,
           "layer": "",
           "locked": false,
           "name": "LICENSE",
