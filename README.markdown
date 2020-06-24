@@ -1,7 +1,7 @@
 # Cajuru
 ### Diego no Mundo dos Vetores
 
-# Download
+# Download (EM BREVE)
 GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
 
 # Abrindo no GDevelop e compilando
