@@ -5437,7 +5437,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.288
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [],
@@ -5495,8 +5495,8 @@
           "locked": false,
           "name": "NewObject2",
           "width": 0,
-          "x": 0,
-          "y": 229,
+          "x": 40,
+          "y": 205,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
