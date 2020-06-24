@@ -4,6 +4,8 @@
 # Download (EM BREVE)
 GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
 
+GitHub Releases: [https://github.com/LucasMNP/Cajuru/releases](https://github.com/LucasMNP/Cajuru/releases)
+
 # Abrindo no GDevelop e compilando
 Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDrive\Construct\Cajuru
 
