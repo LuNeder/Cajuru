@@ -5086,11 +5086,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "LaunchFile"
+                "value": "Scene"
               },
               "parameters": [
                 "\"https://google.com/\"+GlobalVariableString(FasesDesbloqueadas)",
-                ""
+                "\"Informações\"",
+                "yes"
               ],
               "subInstructions": []
             }
@@ -5437,7 +5438,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 1.168
       },
       "objectsGroups": [],
       "variables": [],
@@ -5480,8 +5481,8 @@
           "locked": false,
           "name": "fundoBranco",
           "width": 646,
-          "x": -116,
-          "y": -132,
+          "x": -114,
+          "y": -134,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -5510,8 +5511,8 @@
           "locked": false,
           "name": "fundoCinza",
           "width": 868,
-          "x": -30,
-          "y": -72,
+          "x": -38,
+          "y": -57,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
