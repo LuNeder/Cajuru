@@ -888,6 +888,15 @@
         "name": "Arquivos\\V- Vetor-Plataforma-Movel.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/C- Background 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\C- Background 5.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -15766,7 +15775,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.288
+        "zoomFactor": 0.754
       },
       "objectsGroups": [],
       "variables": [],
@@ -15815,9 +15824,64 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background5",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "name": "Background5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "disabled": false,
@@ -15849,8 +15913,8 @@
                 "",
                 "Diego",
                 "0",
-                "-8692",
-                "800",
+                "0",
+                "5038",
                 "600",
                 "",
                 "\"\"",
@@ -17083,7 +17147,17 @@
               "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "LightNight",
+              "name": "Noite",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
         },
         {
           "name": "UI",
