@@ -16523,7 +16523,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -17087,6 +17087,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 273,
+          "layer": "",
+          "locked": false,
+          "name": "Carrilhao",
+          "width": 98,
+          "x": 4886,
+          "y": 120,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 414,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 191,
+          "x": 4635,
+          "y": -17,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 138,
+          "layer": "",
+          "locked": false,
+          "name": "Alvo",
+          "width": 33,
+          "x": 4657,
+          "y": 0,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 51,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 70,
+          "x": 3617,
+          "y": 12,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 59,
+          "x": 4151,
+          "y": 165,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -17219,7 +17294,7 @@
               "parameters": [
                 "RelogiosDisponiveisFaseAnterior",
                 "=",
-                "4"
+                "5"
               ],
               "subInstructions": []
             },
@@ -17761,7 +17836,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"5\""
+                "\"6\""
               ],
               "subInstructions": []
             },
