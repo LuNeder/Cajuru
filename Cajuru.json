@@ -914,6 +914,15 @@
         "name": "fundoCinza-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Espinhos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Espinhos.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3018,6 +3027,35 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I- Espinhos.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -16485,7 +16523,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.322
+        "zoomFactor": 0.154
       },
       "objectsGroups": [],
       "variables": [],
@@ -16888,7 +16926,7 @@
           "locked": false,
           "name": "RelogioAnalogicoAtirador",
           "width": 0,
-          "x": 3543,
+          "x": 3430,
           "y": 338,
           "zOrder": 26,
           "numberProperties": [],
@@ -16906,6 +16944,56 @@
           "x": 2583,
           "y": 79,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 209,
+          "x": 3554,
+          "y": 353,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -91.7899,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 0,
+          "x": 3425,
+          "y": 179,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -91.7899,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 0,
+          "x": 3149,
+          "y": 193,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
