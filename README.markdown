@@ -28,7 +28,7 @@ Para compilar para .appimage,.exe,.app,.ipa,.apk,etc
 - Clique em "Export"
 - Siga as instruções na tela
 
-Para fazer uma pull request, inclua tudo que está armazenado em E:\GoogleDrive\Construct\Cajuru
+Para fazer uma pull request, descreva detalhadamente o que foi alterado.
 
 # [Licença](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
 [https://github.com/LucasMNP/Cajuru/blob/master/LICENSE](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
