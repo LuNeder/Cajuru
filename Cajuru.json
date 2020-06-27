@@ -18549,7 +18549,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [],
@@ -18700,6 +18700,21 @@
           "x": 1512,
           "y": -16,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 81,
+          "x": 2167,
+          "y": 174,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
