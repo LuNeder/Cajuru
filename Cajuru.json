@@ -199,15 +199,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Arquivos/A- INVISIVEL.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Arquivos\\A- INVISIVEL.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Arquivos/C- Background 1-2.PNG",
         "kind": "image",
         "metadata": "",
@@ -932,6 +923,15 @@
         "name": "Arquivos\\C- Background 6.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/A- INVISIVEL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\A- INVISIVEL.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -18549,7 +18549,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.658
       },
       "objectsGroups": [],
       "variables": [],
@@ -18718,6 +18718,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 207,
+          "layer": "",
+          "locked": false,
+          "name": "Nuvem",
+          "width": 230,
+          "x": 2150,
+          "y": -266,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontos",
+          "width": 111,
+          "x": 684,
+          "y": 4,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontosTexto",
+          "width": 0,
+          "x": 727,
+          "y": 15,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "UI",
+          "locked": false,
+          "name": "ContadorDeVidas",
+          "width": 73,
+          "x": 2,
+          "y": 6,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2696,
+          "layer": "",
+          "locked": false,
+          "name": "detector",
+          "width": 121,
+          "x": 792,
+          "y": -1565,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18740,6 +18815,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\C- Background 6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detector",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "A-INVISIVEL",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20008,6 +20122,84 @@
           },
           "comment": "Aqui termina o que deve ser colocado em todas as fases",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetLayerEffectParameter"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "\"Dark Night\"",
+                "\"opacity\"",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "detector",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetLayerEffectParameter"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "\"Dark Night\"",
+                "\"opacity\"",
+                "0.5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -20026,6 +20218,23 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Night",
+              "name": "Dark Night",
+              "doubleParameters": {
+                "intensity": 0.5,
+                "opacity": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
