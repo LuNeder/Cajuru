@@ -3068,7 +3068,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Arquivos\\I- Espinhos.png",
                   "points": [],
                   "originPoint": {
@@ -3082,7 +3082,64 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 42
+                      },
+                      {
+                        "x": 23,
+                        "y": 3.75
+                      },
+                      {
+                        "x": 46,
+                        "y": 41.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.75,
+                        "y": 41.875
+                      },
+                      {
+                        "x": 58,
+                        "y": 3.875
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 42.375
+                      }
+                    ],
+                    [
+                      {
+                        "x": 70.25,
+                        "y": 42.25
+                      },
+                      {
+                        "x": 92.25,
+                        "y": 3.25
+                      },
+                      {
+                        "x": 115.75,
+                        "y": 41.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105.25,
+                        "y": 40.75
+                      },
+                      {
+                        "x": 128.25,
+                        "y": 4
+                      },
+                      {
+                        "x": 149.5,
+                        "y": 42.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -21299,7 +21356,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.13
+        "zoomFactor": 0.586
       },
       "objectsGroups": [],
       "variables": [],
@@ -21981,6 +22038,41 @@
           "y": 39,
           "zOrder": 2,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogico",
+          "width": 0,
+          "x": 4744,
+          "y": 88,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 4497,
+          "y": 352,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
