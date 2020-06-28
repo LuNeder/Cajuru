@@ -21239,7 +21239,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.268
+        "zoomFactor": 0.682
       },
       "objectsGroups": [],
       "variables": [],
@@ -21345,6 +21345,21 @@
           "x": 5038,
           "y": -219,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "width": 83,
+          "x": 71,
+          "y": 320,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22656,7 +22671,17 @@
               "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "LightNight",
+              "name": "Effect",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
         },
         {
           "name": "UI",
