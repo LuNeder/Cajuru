@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.0.0-Beta3",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
     "name": "Diego no Mundo dos Vetores",
@@ -23545,7 +23545,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.202
+        "zoomFactor": 0.178
       },
       "objectsGroups": [],
       "variables": [],
@@ -23624,6 +23624,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1232,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 435,
+          "x": 714,
+          "y": -433,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1267,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 3584,
+          "x": -864,
+          "y": -431,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "WIP",
+          "width": 0,
+          "x": 137,
+          "y": 241,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 734,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 18334,
+          "x": -2650,
+          "y": 66,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23665,6 +23725,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "WIP",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "FASE 8\nEM CONSTRUÇÃO",
+          "font": "",
+          "characterSize": 57,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
