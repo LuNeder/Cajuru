@@ -23545,7 +23545,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.73
+        "zoomFactor": 0.202
       },
       "objectsGroups": [],
       "variables": [],
@@ -23561,6 +23561,66 @@
           "x": 0,
           "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "width": 83,
+          "x": 68,
+          "y": 321,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 360,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "width": 6303,
+          "x": -87,
+          "y": 397,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1276,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "width": 862,
+          "x": -863,
+          "y": -588,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2006,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "width": 862,
+          "x": 5039,
+          "y": -1166,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23745,6 +23805,33 @@
               "parameters": [
                 "RelogioAnalogicoAtirador",
                 "\"DelayTiroRel\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Diego",
+                "0",
+                "0",
+                "5038",
+                "600",
+                "",
+                "\"\"",
+                ""
               ],
               "subInstructions": []
             }
