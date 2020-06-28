@@ -5629,7 +5629,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.168
+        "zoomFactor": 0.952
       },
       "objectsGroups": [],
       "variables": [],
@@ -5780,6 +5780,21 @@
           "x": 716,
           "y": 7,
           "zOrder": 200005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 404,
+          "y": 260,
+          "zOrder": 200006,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6030,6 +6045,25 @@
           "string": "Voltar",
           "font": "",
           "characterSize": 28,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "irreal",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Diego no Mundo dos Vetores é uma obra fictícia. A única inspiração na realidade é a prova em que os ponteiros estavam invertidos. Qualquar outra semelhança com a realidade é mera coincidência.",
+          "font": "",
+          "characterSize": 14,
           "color": {
             "b": 255,
             "g": 255,

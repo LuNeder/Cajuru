@@ -950,6 +950,15 @@
         "name": "Arquivos\\C- Background 7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/C- Background 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\C- Background 8.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3068,7 +3077,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Arquivos\\I- Espinhos.png",
                   "points": [],
                   "originPoint": {
@@ -3082,7 +3091,64 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 42
+                      },
+                      {
+                        "x": 23,
+                        "y": 3.75
+                      },
+                      {
+                        "x": 46,
+                        "y": 41.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.75,
+                        "y": 41.875
+                      },
+                      {
+                        "x": 58,
+                        "y": 3.875
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 42.375
+                      }
+                    ],
+                    [
+                      {
+                        "x": 70.25,
+                        "y": 42.25
+                      },
+                      {
+                        "x": 92.25,
+                        "y": 3.25
+                      },
+                      {
+                        "x": 115.75,
+                        "y": 41.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105.25,
+                        "y": 40.75
+                      },
+                      {
+                        "x": 128.25,
+                        "y": 4
+                      },
+                      {
+                        "x": 149.5,
+                        "y": 42.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -5717,6 +5783,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 404,
+          "y": 260,
+          "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5964,6 +6045,25 @@
           "string": "Voltar",
           "font": "",
           "characterSize": 28,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "irreal",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Diego no Mundo dos Vetores é uma obra fictícia. A única inspiração na realidade é a prova em que os ponteiros estavam invertidos. Qualquar outra semelhança com a realidade é mera coincidência.",
+          "font": "",
+          "characterSize": 14,
           "color": {
             "b": 255,
             "g": 255,
@@ -10817,7 +10917,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.826
+        "zoomFactor": 0.154
       },
       "objectsGroups": [],
       "variables": [],
@@ -21299,7 +21399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.274
       },
       "objectsGroups": [],
       "variables": [],
@@ -21968,6 +22068,56 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 358,
+          "layer": "",
+          "locked": false,
+          "name": "Carrilhao",
+          "width": 154,
+          "x": 4804,
+          "y": 39,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogico",
+          "width": 0,
+          "x": 4744,
+          "y": 88,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 4497,
+          "y": 352,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22228,7 +22378,7 @@
               "parameters": [
                 "RelogiosDisponiveisFaseAnterior",
                 "=",
-                "5"
+                "3"
               ],
               "subInstructions": []
             },
@@ -22691,7 +22841,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"6\""
+                "\"8\""
               ],
               "subInstructions": []
             },
@@ -23341,6 +23491,139 @@
           "name": "UI",
           "visibility": true,
           "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Fase_328",
+      "name": "Fase 8",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 182,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.73
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background8",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background8",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": []
         }
       ],
