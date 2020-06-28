@@ -3528,12 +3528,12 @@
                     ],
                     [
                       {
-                        "x": 220.208,
-                        "y": 453.333
+                        "x": 228.516,
+                        "y": 453.75
                       },
                       {
-                        "x": 403.542,
-                        "y": 440
+                        "x": 397.266,
+                        "y": 317.5
                       },
                       {
                         "x": 446.875,
@@ -3546,12 +3546,12 @@
                     ],
                     [
                       {
-                        "x": 133.542,
-                        "y": 526.667
+                        "x": 133.516,
+                        "y": 555
                       },
                       {
-                        "x": 216.875,
-                        "y": 526.667
+                        "x": 216.016,
+                        "y": 522.5
                       },
                       {
                         "x": 320.208,
@@ -3564,20 +3564,20 @@
                     ],
                     [
                       {
-                        "x": 20.2083,
-                        "y": 733.333
+                        "x": 12.2656,
+                        "y": 777.5
                       },
                       {
-                        "x": 140.208,
-                        "y": 713.333
+                        "x": 163.516,
+                        "y": 700
                       },
                       {
-                        "x": 240.208,
-                        "y": 1570
+                        "x": 234.766,
+                        "y": 1586.25
                       },
                       {
-                        "x": 146.875,
-                        "y": 1580
+                        "x": 134.766,
+                        "y": 1590
                       }
                     ]
                   ]
@@ -12418,7 +12418,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 0.208
       },
       "objectsGroups": [],
       "variables": [],
@@ -21285,7 +21285,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.85
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [],
@@ -21873,9 +21873,54 @@
           "locked": false,
           "name": "RelogioDigital",
           "width": 59,
-          "x": 3314,
-          "y": 355,
+          "x": 3181,
+          "y": 101,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogico",
+          "width": 0,
+          "x": 3212,
+          "y": 205,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 59,
+          "x": 4077,
+          "y": 338,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaRampa",
+          "width": 0,
+          "x": 3370,
+          "y": 164,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
