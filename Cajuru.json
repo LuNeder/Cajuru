@@ -4333,6 +4333,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "manda",
+          "width": 0,
+          "x": 8,
+          "y": 10,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4931,6 +4946,25 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "manda",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 26,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -5323,6 +5357,18 @@
                 "77",
                 "=",
                 "176"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "manda",
+                "=",
+                "\"Mande um print disso para diegoeasteregg@gmail.com\""
               ],
               "subInstructions": []
             }
@@ -21239,7 +21285,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.298
+        "zoomFactor": 0.682
       },
       "objectsGroups": [],
       "variables": [],
@@ -21372,8 +21418,8 @@
           "locked": false,
           "name": "VetorPlataformaReto",
           "width": 144,
-          "x": 1618,
-          "y": 154,
+          "x": 2510,
+          "y": 148,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -21382,13 +21428,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 49,
+          "height": 33,
           "layer": "",
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
-          "width": 167,
-          "x": 1533,
-          "y": 349,
+          "width": 91,
+          "x": 2530,
+          "y": 197,
           "zOrder": 10,
           "numberProperties": [
             {
@@ -21721,6 +21767,56 @@
           "y": 4,
           "zOrder": 18,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 178,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 144,
+          "x": 1618,
+          "y": 154,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 178,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 144,
+          "x": 2180,
+          "y": 154,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 49,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 167,
+          "x": 1533,
+          "y": 349,
+          "zOrder": 10,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
