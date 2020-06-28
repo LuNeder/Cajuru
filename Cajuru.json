@@ -4121,7 +4121,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7884
+        "zoomFactor": 1.1004
       },
       "objectsGroups": [],
       "variables": [
@@ -10757,7 +10757,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.898
+        "zoomFactor": 0.826
       },
       "objectsGroups": [],
       "variables": [],
@@ -18567,7 +18567,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.706
+        "zoomFactor": 0.874
       },
       "objectsGroups": [],
       "variables": [],
@@ -20456,7 +20456,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"6\""
+                "\"7\""
               ],
               "subInstructions": []
             },
