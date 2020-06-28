@@ -21285,7 +21285,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.018
+        "zoomFactor": 0.85
       },
       "objectsGroups": [],
       "variables": [],
@@ -21433,8 +21433,8 @@
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
           "width": 91,
-          "x": 2530,
-          "y": 197,
+          "x": 2533,
+          "y": 200,
           "zOrder": 10,
           "numberProperties": [
             {
@@ -21817,6 +21817,66 @@
               "value": 1
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogico",
+          "width": 0,
+          "x": 2938,
+          "y": 346,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3032,
+          "y": 112,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 186,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaMovel",
+          "width": 154,
+          "x": 3126,
+          "y": 145,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 59,
+          "x": 3314,
+          "y": 355,
+          "zOrder": 22,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
