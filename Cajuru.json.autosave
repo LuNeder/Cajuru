@@ -21239,7 +21239,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [],
@@ -21675,21 +21675,6 @@
           "x": 2234,
           "y": 353,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 76,
-          "layer": "",
-          "locked": false,
-          "name": "TiroRELOGIO",
-          "width": 134,
-          "x": 158,
-          "y": 145,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []

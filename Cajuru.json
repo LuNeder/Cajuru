@@ -10757,7 +10757,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.058
+        "zoomFactor": 0.802
       },
       "objectsGroups": [],
       "variables": [],
@@ -11060,8 +11060,8 @@
           "locked": false,
           "name": "VetorPlataformaReto",
           "width": 201,
-          "x": 967,
-          "y": 47,
+          "x": 978,
+          "y": 66,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -21239,7 +21239,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
