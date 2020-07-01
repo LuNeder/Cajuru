@@ -23712,7 +23712,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.226
+        "zoomFactor": 0.322
       },
       "objectsGroups": [],
       "variables": [],
@@ -24174,6 +24174,36 @@
               "value": 1
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 358,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaRampa",
+          "width": 717,
+          "x": 2893,
+          "y": 59,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 75,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 103,
+          "x": 3511,
+          "y": 22,
+          "zOrder": 26,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
