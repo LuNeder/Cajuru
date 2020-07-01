@@ -23712,7 +23712,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.898
       },
       "objectsGroups": [],
       "variables": [],
@@ -23965,8 +23965,8 @@
           "locked": false,
           "name": "RelogioAnalogicoAtirador",
           "width": 0,
-          "x": 2355,
-          "y": 95,
+          "x": 2306,
+          "y": 93,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -23995,8 +23995,8 @@
           "locked": false,
           "name": "VetorPlataformaReto",
           "width": 201,
-          "x": 2238,
-          "y": -18,
+          "x": 2184,
+          "y": -21,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -24005,13 +24005,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 56,
           "layer": "",
           "locked": false,
           "name": "RelogioDigital",
-          "width": 82,
-          "x": 1630,
-          "y": -2,
+          "width": 69,
+          "x": 1658,
+          "y": 21,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -24071,7 +24071,7 @@
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
           "x": 2298,
-          "y": 355,
+          "y": 353,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -24090,7 +24090,7 @@
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
-          "x": 1965,
+          "x": 1957,
           "y": 353,
           "zOrder": 23,
           "numberProperties": [
@@ -24130,8 +24130,43 @@
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
+          "x": 2435,
+          "y": 353,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaMovel",
+          "width": 200,
+          "x": 2636,
+          "y": 41,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
           "x": 2230,
-          "y": 355,
+          "y": 353,
           "zOrder": 23,
           "numberProperties": [
             {
