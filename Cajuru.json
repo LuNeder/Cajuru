@@ -23712,7 +23712,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [],
@@ -23920,8 +23920,8 @@
           "locked": false,
           "name": "RelogioAnalogicoAtirador",
           "width": 0,
-          "x": 1686,
-          "y": 149,
+          "x": 1754,
+          "y": 171,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -24013,6 +24013,21 @@
           "x": 1630,
           "y": -2,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 4732,
+          "y": 248,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
