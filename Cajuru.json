@@ -4419,7 +4419,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5004
+        "zoomFactor": 0.8364
       },
       "objectsGroups": [],
       "variables": [
@@ -4673,6 +4673,21 @@
           "x": 626,
           "y": -7,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "versao",
+          "width": 0,
+          "x": 1009,
+          "y": 575,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5332,6 +5347,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "versao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "v1.0.0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -5992,7 +6026,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.952
+        "zoomFactor": 0.688
       },
       "objectsGroups": [],
       "variables": [],
@@ -6035,8 +6069,8 @@
           "locked": false,
           "name": "fundoBranco",
           "width": 646,
-          "x": -114,
-          "y": -134,
+          "x": -129,
+          "y": -135,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6060,11 +6094,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 784,
+          "height": 1337,
           "layer": "",
           "locked": false,
           "name": "fundoCinza",
-          "width": 1123,
+          "width": 1828,
           "x": -38,
           "y": -57,
           "zOrder": 3,
@@ -6140,8 +6174,8 @@
           "locked": false,
           "name": "Voltar",
           "width": 0,
-          "x": 977,
-          "y": 6,
+          "x": 989,
+          "y": 9,
           "zOrder": 200005,
           "numberProperties": [],
           "stringProperties": [],
@@ -6155,9 +6189,24 @@
           "locked": false,
           "name": "irreal",
           "width": 398,
-          "x": 404,
-          "y": 260,
+          "x": 589,
+          "y": 229,
           "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LinksMobile",
+          "width": 0,
+          "x": 518,
+          "y": 86,
+          "zOrder": 200007,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6432,6 +6481,25 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "LinksMobile",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "GitHub: https://github.com/LucasMNP/Cajuru\nGameJolt: https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite: https://bit.ly/DiegVet",
+          "font": "",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -6690,6 +6758,14 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -29285,7 +29361,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.946
+        "zoomFactor": 0.922
       },
       "objectsGroups": [],
       "variables": [],
