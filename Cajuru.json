@@ -4419,7 +4419,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6684
+        "zoomFactor": 0.5004
       },
       "objectsGroups": [],
       "variables": [
@@ -11827,6 +11827,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -13777,6 +13788,17 @@
               "type": {
                 "inverted": false,
                 "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
                 "Diego",
@@ -15820,6 +15842,17 @@
               "type": {
                 "inverted": false,
                 "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
                 "Diego",
@@ -18643,6 +18676,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -20985,6 +21029,17 @@
               "type": {
                 "inverted": false,
                 "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
                 "Diego",
@@ -23940,6 +23995,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -26506,6 +26572,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -28937,6 +29014,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -29432,6 +29520,17 @@
               "type": {
                 "inverted": false,
                 "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Diego",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
                 "Diego",
