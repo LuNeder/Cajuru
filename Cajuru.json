@@ -23712,7 +23712,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.178
       },
       "objectsGroups": [],
       "variables": [],
@@ -24341,6 +24341,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 61,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 111,
+          "x": 4544,
+          "y": 334,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -24620,7 +24635,7 @@
               "parameters": [
                 "RelogiosDisponiveisFaseAnterior",
                 "=",
-                "3"
+                "4"
               ],
               "subInstructions": []
             },
@@ -25083,7 +25098,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"8\""
+                "\"9\""
               ],
               "subInstructions": []
             },
