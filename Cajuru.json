@@ -23712,7 +23712,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.898
       },
       "objectsGroups": [],
       "variables": [],
@@ -24071,7 +24071,7 @@
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
           "x": 2298,
-          "y": 354,
+          "y": 353,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -24090,7 +24090,7 @@
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
-          "x": 1965,
+          "x": 1957,
           "y": 353,
           "zOrder": 23,
           "numberProperties": [
