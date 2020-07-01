@@ -11410,17 +11410,88 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Diego",
+                "\"DelayTiro\"",
+                "1.15"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateDownKey"
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TiroAMIGO",
+                "Diego.X()",
+                "Diego.Y()",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "Diego.Direction()",
+                "179",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "=",
+                "0.15"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
               },
               "parameters": [
                 "Diego",
-                "PlatformerObject"
+                "\"DelayTiro\""
               ],
               "subInstructions": []
             }
