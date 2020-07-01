@@ -1004,933 +1004,20 @@
         "name": "Arquivos\\U- Vetor-Mobile.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/C- Background 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\C- Background 9.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [
-    {
-      "name": "Diego",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 300,
-          "DamageCooldown": 2.5,
-          "MaxHealth": 300,
-          "IsJustDamaged": false,
-          "CooldownActive": false
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "gravity": 550,
-          "ignoreDefaultControls": false,
-          "canGrabPlatforms": true,
-          "deceleration": 1500,
-          "jumpSpeed": 600,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 60,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Cajuru em Repouso",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru em Repouso.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 760,
-                        "y": 490
-                      },
-                      {
-                        "x": 902,
-                        "y": 498
-                      },
-                      {
-                        "x": 894,
-                        "y": 2336
-                      },
-                      {
-                        "x": 762,
-                        "y": 2346
-                      }
-                    ],
-                    [
-                      {
-                        "x": 902,
-                        "y": 1276
-                      },
-                      {
-                        "x": 1492,
-                        "y": 1860
-                      },
-                      {
-                        "x": 1428,
-                        "y": 1928
-                      },
-                      {
-                        "x": 904,
-                        "y": 1408
-                      }
-                    ],
-                    [
-                      {
-                        "x": 762,
-                        "y": 1282
-                      },
-                      {
-                        "x": 766,
-                        "y": 1440
-                      },
-                      {
-                        "x": 276,
-                        "y": 2050
-                      },
-                      {
-                        "x": 202,
-                        "y": 1982
-                      }
-                    ],
-                    [
-                      {
-                        "x": 735,
-                        "y": 466.667
-                      },
-                      {
-                        "x": 991.667,
-                        "y": 460
-                      },
-                      {
-                        "x": 1155,
-                        "y": 786.667
-                      },
-                      {
-                        "x": 541.667,
-                        "y": 726.667
-                      }
-                    ],
-                    [
-                      {
-                        "x": 638,
-                        "y": 598
-                      },
-                      {
-                        "x": 1041.67,
-                        "y": 553.333
-                      },
-                      {
-                        "x": 971.667,
-                        "y": 1113.33
-                      },
-                      {
-                        "x": 688.333,
-                        "y": 1063.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 786,
-                        "y": 2278
-                      },
-                      {
-                        "x": 850,
-                        "y": 2326
-                      },
-                      {
-                        "x": 163.333,
-                        "y": 3021.67
-                      },
-                      {
-                        "x": 93.3333,
-                        "y": 2968.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 852,
-                        "y": 2326
-                      },
-                      {
-                        "x": 900,
-                        "y": 2242
-                      },
-                      {
-                        "x": 1516.67,
-                        "y": 2978.33
-                      },
-                      {
-                        "x": 1438.33,
-                        "y": 3023.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 541.667,
-                        "y": 720
-                      },
-                      {
-                        "x": 1151.67,
-                        "y": 790
-                      },
-                      {
-                        "x": 955,
-                        "y": 1236.67
-                      },
-                      {
-                        "x": 721.667,
-                        "y": 1216.67
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru em MU ou MUV",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.8,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru em MU ou MUV 1.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 915,
-                        "y": 2300
-                      },
-                      {
-                        "x": 1265,
-                        "y": 2990
-                      },
-                      {
-                        "x": 645,
-                        "y": 3020
-                      },
-                      {
-                        "x": 775,
-                        "y": 2280
-                      }
-                    ],
-                    [
-                      {
-                        "x": 775,
-                        "y": 490
-                      },
-                      {
-                        "x": 935,
-                        "y": 470
-                      },
-                      {
-                        "x": 895,
-                        "y": 2250
-                      },
-                      {
-                        "x": 755,
-                        "y": 2240
-                      }
-                    ],
-                    [
-                      {
-                        "x": 905,
-                        "y": 1300
-                      },
-                      {
-                        "x": 1675,
-                        "y": 1640
-                      },
-                      {
-                        "x": 1605,
-                        "y": 1720
-                      },
-                      {
-                        "x": 925,
-                        "y": 1420
-                      }
-                    ],
-                    [
-                      {
-                        "x": 955,
-                        "y": 1280
-                      },
-                      {
-                        "x": 985,
-                        "y": 1360
-                      },
-                      {
-                        "x": 1695,
-                        "y": 1270
-                      },
-                      {
-                        "x": 1685,
-                        "y": 1180
-                      }
-                    ],
-                    [
-                      {
-                        "x": 795,
-                        "y": 1220
-                      },
-                      {
-                        "x": 955,
-                        "y": 1220
-                      },
-                      {
-                        "x": 1135,
-                        "y": 750
-                      },
-                      {
-                        "x": 1045,
-                        "y": 510
-                      },
-                      {
-                        "x": 685,
-                        "y": 450
-                      },
-                      {
-                        "x": 575,
-                        "y": 560
-                      },
-                      {
-                        "x": 565,
-                        "y": 850
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru em MU ou MUV 2.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 915,
-                        "y": 2300
-                      },
-                      {
-                        "x": 675,
-                        "y": 3020
-                      },
-                      {
-                        "x": 555,
-                        "y": 2940
-                      },
-                      {
-                        "x": 775,
-                        "y": 2280
-                      }
-                    ],
-                    [
-                      {
-                        "x": 775,
-                        "y": 490
-                      },
-                      {
-                        "x": 935,
-                        "y": 470
-                      },
-                      {
-                        "x": 895,
-                        "y": 2250
-                      },
-                      {
-                        "x": 755,
-                        "y": 2240
-                      }
-                    ],
-                    [
-                      {
-                        "x": 905,
-                        "y": 1300
-                      },
-                      {
-                        "x": 1625,
-                        "y": 1810
-                      },
-                      {
-                        "x": 1595,
-                        "y": 1900
-                      },
-                      {
-                        "x": 925,
-                        "y": 1420
-                      }
-                    ],
-                    [
-                      {
-                        "x": 955,
-                        "y": 1280
-                      },
-                      {
-                        "x": 985,
-                        "y": 1360
-                      },
-                      {
-                        "x": 1685,
-                        "y": 1140
-                      },
-                      {
-                        "x": 1635,
-                        "y": 1020
-                      }
-                    ],
-                    [
-                      {
-                        "x": 795,
-                        "y": 1220
-                      },
-                      {
-                        "x": 955,
-                        "y": 1220
-                      },
-                      {
-                        "x": 1135,
-                        "y": 750
-                      },
-                      {
-                        "x": 1045,
-                        "y": 510
-                      },
-                      {
-                        "x": 685,
-                        "y": 450
-                      },
-                      {
-                        "x": 575,
-                        "y": 560
-                      },
-                      {
-                        "x": 565,
-                        "y": 850
-                      }
-                    ],
-                    [
-                      {
-                        "x": 885,
-                        "y": 2330
-                      },
-                      {
-                        "x": 865,
-                        "y": 2170
-                      },
-                      {
-                        "x": 1625,
-                        "y": 2900
-                      },
-                      {
-                        "x": 1545,
-                        "y": 2990
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru Pulando",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru Pulando.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1001.67,
-                        "y": 3020
-                      },
-                      {
-                        "x": 671.667,
-                        "y": 3020
-                      },
-                      {
-                        "x": 561.667,
-                        "y": 2143.33
-                      },
-                      {
-                        "x": 705,
-                        "y": 1240
-                      },
-                      {
-                        "x": 418.333,
-                        "y": 590
-                      },
-                      {
-                        "x": 951.667,
-                        "y": 363.333
-                      },
-                      {
-                        "x": 1208.33,
-                        "y": 676.667
-                      },
-                      {
-                        "x": 945,
-                        "y": 1280
-                      },
-                      {
-                        "x": 1165,
-                        "y": 2190
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru em Queda Livre",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru em Queda Livre.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1001.67,
-                        "y": 2110
-                      },
-                      {
-                        "x": 878.333,
-                        "y": 2100
-                      },
-                      {
-                        "x": 871.667,
-                        "y": 3016.67
-                      },
-                      {
-                        "x": 995,
-                        "y": 3013.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 658.333,
-                        "y": 2106.67
-                      },
-                      {
-                        "x": 765,
-                        "y": 2103.33
-                      },
-                      {
-                        "x": 761.667,
-                        "y": 3020
-                      },
-                      {
-                        "x": 658.333,
-                        "y": 3020
-                      }
-                    ],
-                    [
-                      {
-                        "x": 755,
-                        "y": 486.667
-                      },
-                      {
-                        "x": 925,
-                        "y": 483.333
-                      },
-                      {
-                        "x": 888.333,
-                        "y": 2330
-                      },
-                      {
-                        "x": 761.667,
-                        "y": 2343.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 1381.67,
-                        "y": 740
-                      },
-                      {
-                        "x": 1301.67,
-                        "y": 693.333
-                      },
-                      {
-                        "x": 905,
-                        "y": 1273.33
-                      },
-                      {
-                        "x": 901.667,
-                        "y": 1463.33
-                      }
-                    ],
-                    [
-                      {
-                        "x": 175,
-                        "y": 766.667
-                      },
-                      {
-                        "x": 248.333,
-                        "y": 696.667
-                      },
-                      {
-                        "x": 758.333,
-                        "y": 1270
-                      },
-                      {
-                        "x": 768.333,
-                        "y": 1450
-                      }
-                    ],
-                    [
-                      {
-                        "x": 718.333,
-                        "y": 496.667
-                      },
-                      {
-                        "x": 1041.67,
-                        "y": 540
-                      },
-                      {
-                        "x": 1058.33,
-                        "y": 1030
-                      },
-                      {
-                        "x": 731.667,
-                        "y": 1160
-                      },
-                      {
-                        "x": 541.667,
-                        "y": 816.667
-                      }
-                    ],
-                    [
-                      {
-                        "x": 898.333,
-                        "y": 443.333
-                      },
-                      {
-                        "x": 1038.33,
-                        "y": 510
-                      },
-                      {
-                        "x": 1148.33,
-                        "y": 773.333
-                      },
-                      {
-                        "x": 911.667,
-                        "y": 1206.67
-                      }
-                    ],
-                    [
-                      {
-                        "x": 551.667,
-                        "y": 730
-                      },
-                      {
-                        "x": 635,
-                        "y": 623.333
-                      },
-                      {
-                        "x": 868.333,
-                        "y": 1166.67
-                      },
-                      {
-                        "x": 738.333,
-                        "y": 1183.33
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru Morto",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru Morto.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 147.031,
-                        "y": 1500
-                      },
-                      {
-                        "x": 167.031,
-                        "y": 270
-                      },
-                      {
-                        "x": 1187.03,
-                        "y": 150
-                      },
-                      {
-                        "x": 1807.03,
-                        "y": 540
-                      },
-                      {
-                        "x": 2547.03,
-                        "y": 600
-                      },
-                      {
-                        "x": 2456.67,
-                        "y": 1513.33
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru Festa",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru Festa.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1452.03,
-                        "y": 3000
-                      },
-                      {
-                        "x": 135.365,
-                        "y": 3023.33
-                      },
-                      {
-                        "x": 665,
-                        "y": 2150
-                      },
-                      {
-                        "x": 152.031,
-                        "y": 2050
-                      },
-                      {
-                        "x": 418.333,
-                        "y": 590
-                      },
-                      {
-                        "x": 951.667,
-                        "y": 363.333
-                      },
-                      {
-                        "x": 2102.03,
-                        "y": 20
-                      },
-                      {
-                        "x": 2105.36,
-                        "y": 510
-                      },
-                      {
-                        "x": 945.365,
-                        "y": 1386.67
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cajuru Machucado",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\P- Cajuru Dano.PNG",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1460,
-                    "y": 1530
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 185,
-                        "y": 2010
-                      },
-                      {
-                        "x": 605,
-                        "y": 1900
-                      },
-                      {
-                        "x": 215,
-                        "y": 3010
-                      },
-                      {
-                        "x": 1478.33,
-                        "y": 3020
-                      },
-                      {
-                        "x": 955,
-                        "y": 1810
-                      },
-                      {
-                        "x": 1495,
-                        "y": 1920
-                      },
-                      {
-                        "x": 1075,
-                        "y": 1190
-                      },
-                      {
-                        "x": 1055,
-                        "y": 400
-                      },
-                      {
-                        "x": 525,
-                        "y": 600
-                      },
-                      {
-                        "x": 665,
-                        "y": 1160
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "name": "Ground",
       "tags": "",
@@ -3703,6 +2790,928 @@
                       {
                         "x": 134.766,
                         "y": 1590
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diego",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 300,
+          "DamageCooldown": 2.5,
+          "MaxHealth": 300,
+          "IsJustDamaged": false,
+          "CooldownActive": false
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "gravity": 550,
+          "ignoreDefaultControls": false,
+          "canGrabPlatforms": true,
+          "deceleration": 1500,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Cajuru em Repouso",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru em Repouso.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 760,
+                        "y": 490
+                      },
+                      {
+                        "x": 902,
+                        "y": 498
+                      },
+                      {
+                        "x": 894,
+                        "y": 2336
+                      },
+                      {
+                        "x": 762,
+                        "y": 2346
+                      }
+                    ],
+                    [
+                      {
+                        "x": 902,
+                        "y": 1276
+                      },
+                      {
+                        "x": 1492,
+                        "y": 1860
+                      },
+                      {
+                        "x": 1428,
+                        "y": 1928
+                      },
+                      {
+                        "x": 904,
+                        "y": 1408
+                      }
+                    ],
+                    [
+                      {
+                        "x": 762,
+                        "y": 1282
+                      },
+                      {
+                        "x": 766,
+                        "y": 1440
+                      },
+                      {
+                        "x": 276,
+                        "y": 2050
+                      },
+                      {
+                        "x": 202,
+                        "y": 1982
+                      }
+                    ],
+                    [
+                      {
+                        "x": 735,
+                        "y": 466.667
+                      },
+                      {
+                        "x": 991.667,
+                        "y": 460
+                      },
+                      {
+                        "x": 1155,
+                        "y": 786.667
+                      },
+                      {
+                        "x": 541.667,
+                        "y": 726.667
+                      }
+                    ],
+                    [
+                      {
+                        "x": 638,
+                        "y": 598
+                      },
+                      {
+                        "x": 1041.67,
+                        "y": 553.333
+                      },
+                      {
+                        "x": 971.667,
+                        "y": 1113.33
+                      },
+                      {
+                        "x": 688.333,
+                        "y": 1063.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 786,
+                        "y": 2278
+                      },
+                      {
+                        "x": 850,
+                        "y": 2326
+                      },
+                      {
+                        "x": 163.333,
+                        "y": 3021.67
+                      },
+                      {
+                        "x": 93.3333,
+                        "y": 2968.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 852,
+                        "y": 2326
+                      },
+                      {
+                        "x": 900,
+                        "y": 2242
+                      },
+                      {
+                        "x": 1516.67,
+                        "y": 2978.33
+                      },
+                      {
+                        "x": 1438.33,
+                        "y": 3023.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 541.667,
+                        "y": 720
+                      },
+                      {
+                        "x": 1151.67,
+                        "y": 790
+                      },
+                      {
+                        "x": 955,
+                        "y": 1236.67
+                      },
+                      {
+                        "x": 721.667,
+                        "y": 1216.67
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru em MU ou MUV",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru em MU ou MUV 1.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 915,
+                        "y": 2300
+                      },
+                      {
+                        "x": 1265,
+                        "y": 2990
+                      },
+                      {
+                        "x": 645,
+                        "y": 3020
+                      },
+                      {
+                        "x": 775,
+                        "y": 2280
+                      }
+                    ],
+                    [
+                      {
+                        "x": 775,
+                        "y": 490
+                      },
+                      {
+                        "x": 935,
+                        "y": 470
+                      },
+                      {
+                        "x": 895,
+                        "y": 2250
+                      },
+                      {
+                        "x": 755,
+                        "y": 2240
+                      }
+                    ],
+                    [
+                      {
+                        "x": 905,
+                        "y": 1300
+                      },
+                      {
+                        "x": 1675,
+                        "y": 1640
+                      },
+                      {
+                        "x": 1605,
+                        "y": 1720
+                      },
+                      {
+                        "x": 925,
+                        "y": 1420
+                      }
+                    ],
+                    [
+                      {
+                        "x": 955,
+                        "y": 1280
+                      },
+                      {
+                        "x": 985,
+                        "y": 1360
+                      },
+                      {
+                        "x": 1695,
+                        "y": 1270
+                      },
+                      {
+                        "x": 1685,
+                        "y": 1180
+                      }
+                    ],
+                    [
+                      {
+                        "x": 795,
+                        "y": 1220
+                      },
+                      {
+                        "x": 955,
+                        "y": 1220
+                      },
+                      {
+                        "x": 1135,
+                        "y": 750
+                      },
+                      {
+                        "x": 1045,
+                        "y": 510
+                      },
+                      {
+                        "x": 685,
+                        "y": 450
+                      },
+                      {
+                        "x": 575,
+                        "y": 560
+                      },
+                      {
+                        "x": 565,
+                        "y": 850
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru em MU ou MUV 2.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 915,
+                        "y": 2300
+                      },
+                      {
+                        "x": 675,
+                        "y": 3020
+                      },
+                      {
+                        "x": 555,
+                        "y": 2940
+                      },
+                      {
+                        "x": 775,
+                        "y": 2280
+                      }
+                    ],
+                    [
+                      {
+                        "x": 775,
+                        "y": 490
+                      },
+                      {
+                        "x": 935,
+                        "y": 470
+                      },
+                      {
+                        "x": 895,
+                        "y": 2250
+                      },
+                      {
+                        "x": 755,
+                        "y": 2240
+                      }
+                    ],
+                    [
+                      {
+                        "x": 905,
+                        "y": 1300
+                      },
+                      {
+                        "x": 1625,
+                        "y": 1810
+                      },
+                      {
+                        "x": 1595,
+                        "y": 1900
+                      },
+                      {
+                        "x": 925,
+                        "y": 1420
+                      }
+                    ],
+                    [
+                      {
+                        "x": 955,
+                        "y": 1280
+                      },
+                      {
+                        "x": 985,
+                        "y": 1360
+                      },
+                      {
+                        "x": 1685,
+                        "y": 1140
+                      },
+                      {
+                        "x": 1635,
+                        "y": 1020
+                      }
+                    ],
+                    [
+                      {
+                        "x": 795,
+                        "y": 1220
+                      },
+                      {
+                        "x": 955,
+                        "y": 1220
+                      },
+                      {
+                        "x": 1135,
+                        "y": 750
+                      },
+                      {
+                        "x": 1045,
+                        "y": 510
+                      },
+                      {
+                        "x": 685,
+                        "y": 450
+                      },
+                      {
+                        "x": 575,
+                        "y": 560
+                      },
+                      {
+                        "x": 565,
+                        "y": 850
+                      }
+                    ],
+                    [
+                      {
+                        "x": 885,
+                        "y": 2330
+                      },
+                      {
+                        "x": 865,
+                        "y": 2170
+                      },
+                      {
+                        "x": 1625,
+                        "y": 2900
+                      },
+                      {
+                        "x": 1545,
+                        "y": 2990
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru Pulando",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru Pulando.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1001.67,
+                        "y": 3020
+                      },
+                      {
+                        "x": 671.667,
+                        "y": 3020
+                      },
+                      {
+                        "x": 561.667,
+                        "y": 2143.33
+                      },
+                      {
+                        "x": 705,
+                        "y": 1240
+                      },
+                      {
+                        "x": 418.333,
+                        "y": 590
+                      },
+                      {
+                        "x": 951.667,
+                        "y": 363.333
+                      },
+                      {
+                        "x": 1208.33,
+                        "y": 676.667
+                      },
+                      {
+                        "x": 945,
+                        "y": 1280
+                      },
+                      {
+                        "x": 1165,
+                        "y": 2190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru em Queda Livre",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru em Queda Livre.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1001.67,
+                        "y": 2110
+                      },
+                      {
+                        "x": 878.333,
+                        "y": 2100
+                      },
+                      {
+                        "x": 871.667,
+                        "y": 3016.67
+                      },
+                      {
+                        "x": 995,
+                        "y": 3013.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 658.333,
+                        "y": 2106.67
+                      },
+                      {
+                        "x": 765,
+                        "y": 2103.33
+                      },
+                      {
+                        "x": 761.667,
+                        "y": 3020
+                      },
+                      {
+                        "x": 658.333,
+                        "y": 3020
+                      }
+                    ],
+                    [
+                      {
+                        "x": 755,
+                        "y": 486.667
+                      },
+                      {
+                        "x": 925,
+                        "y": 483.333
+                      },
+                      {
+                        "x": 888.333,
+                        "y": 2330
+                      },
+                      {
+                        "x": 761.667,
+                        "y": 2343.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1381.67,
+                        "y": 740
+                      },
+                      {
+                        "x": 1301.67,
+                        "y": 693.333
+                      },
+                      {
+                        "x": 905,
+                        "y": 1273.33
+                      },
+                      {
+                        "x": 901.667,
+                        "y": 1463.33
+                      }
+                    ],
+                    [
+                      {
+                        "x": 175,
+                        "y": 766.667
+                      },
+                      {
+                        "x": 248.333,
+                        "y": 696.667
+                      },
+                      {
+                        "x": 758.333,
+                        "y": 1270
+                      },
+                      {
+                        "x": 768.333,
+                        "y": 1450
+                      }
+                    ],
+                    [
+                      {
+                        "x": 718.333,
+                        "y": 496.667
+                      },
+                      {
+                        "x": 1041.67,
+                        "y": 540
+                      },
+                      {
+                        "x": 1058.33,
+                        "y": 1030
+                      },
+                      {
+                        "x": 731.667,
+                        "y": 1160
+                      },
+                      {
+                        "x": 541.667,
+                        "y": 816.667
+                      }
+                    ],
+                    [
+                      {
+                        "x": 898.333,
+                        "y": 443.333
+                      },
+                      {
+                        "x": 1038.33,
+                        "y": 510
+                      },
+                      {
+                        "x": 1148.33,
+                        "y": 773.333
+                      },
+                      {
+                        "x": 911.667,
+                        "y": 1206.67
+                      }
+                    ],
+                    [
+                      {
+                        "x": 551.667,
+                        "y": 730
+                      },
+                      {
+                        "x": 635,
+                        "y": 623.333
+                      },
+                      {
+                        "x": 868.333,
+                        "y": 1166.67
+                      },
+                      {
+                        "x": 738.333,
+                        "y": 1183.33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru Morto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru Morto.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147.031,
+                        "y": 1500
+                      },
+                      {
+                        "x": 167.031,
+                        "y": 270
+                      },
+                      {
+                        "x": 1187.03,
+                        "y": 150
+                      },
+                      {
+                        "x": 1807.03,
+                        "y": 540
+                      },
+                      {
+                        "x": 2547.03,
+                        "y": 600
+                      },
+                      {
+                        "x": 2456.67,
+                        "y": 1513.33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru Festa",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru Festa.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1452.03,
+                        "y": 3000
+                      },
+                      {
+                        "x": 135.365,
+                        "y": 3023.33
+                      },
+                      {
+                        "x": 665,
+                        "y": 2150
+                      },
+                      {
+                        "x": 152.031,
+                        "y": 2050
+                      },
+                      {
+                        "x": 418.333,
+                        "y": 590
+                      },
+                      {
+                        "x": 951.667,
+                        "y": 363.333
+                      },
+                      {
+                        "x": 2102.03,
+                        "y": 20
+                      },
+                      {
+                        "x": 2105.36,
+                        "y": 510
+                      },
+                      {
+                        "x": 945.365,
+                        "y": 1386.67
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cajuru Machucado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\P- Cajuru Dano.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1460,
+                    "y": 1530
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 185,
+                        "y": 2010
+                      },
+                      {
+                        "x": 605,
+                        "y": 1900
+                      },
+                      {
+                        "x": 215,
+                        "y": 3010
+                      },
+                      {
+                        "x": 1478.33,
+                        "y": 3020
+                      },
+                      {
+                        "x": 955,
+                        "y": 1810
+                      },
+                      {
+                        "x": 1495,
+                        "y": 1920
+                      },
+                      {
+                        "x": 1075,
+                        "y": 1190
+                      },
+                      {
+                        "x": 1055,
+                        "y": 400
+                      },
+                      {
+                        "x": 525,
+                        "y": 600
+                      },
+                      {
+                        "x": 665,
+                        "y": 1160
                       }
                     ]
                   ]
@@ -29361,7 +29370,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.922
+        "zoomFactor": 0.85
       },
       "objectsGroups": [],
       "variables": [],
@@ -29470,9 +29479,124 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background9",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 360,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "width": 5793,
+          "x": -291,
+          "y": 396,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1871,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "width": 862,
+          "x": 5038,
+          "y": -1081,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1871,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "width": 862,
+          "x": -862,
+          "y": -1081,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "width": 83,
+          "x": 71,
+          "y": 322,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "name": "Background9",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "disabled": false,
