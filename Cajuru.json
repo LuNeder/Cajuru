@@ -23703,7 +23703,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [],
@@ -23779,6 +23779,96 @@
           "x": 5039,
           "y": -1166,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 196,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaAtravessavel",
+          "width": 189,
+          "x": 645,
+          "y": 153,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 953,
+          "y": 119,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 687,
+          "y": 157,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 84,
+          "layer": "UI",
+          "locked": false,
+          "name": "ContadorDeVidas",
+          "width": 154,
+          "x": 3,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 75,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontos",
+          "width": 84,
+          "x": 714,
+          "y": 4,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontosTexto",
+          "width": 0,
+          "x": 744,
+          "y": 23,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25158,6 +25248,12 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
