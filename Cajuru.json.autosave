@@ -29399,7 +29399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.874
+        "zoomFactor": 0.85
       },
       "objectsGroups": [],
       "variables": [],
@@ -29716,6 +29716,66 @@
               "value": 1
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 209,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 143,
+          "x": 1033,
+          "y": 129,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 209,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 143,
+          "x": 722,
+          "y": 57,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioDigital",
+          "width": 53,
+          "x": 969,
+          "y": 259,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 117,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaMovel",
+          "width": 74,
+          "x": 953,
+          "y": 234,
+          "zOrder": 28,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
