@@ -32163,9 +32163,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
-        "windowMask": true,
-        "zoomFactor": 0.356
+        "snap": false,
+        "windowMask": false,
+        "zoomFactor": 0.476
       },
       "objectsGroups": [],
       "variables": [],
