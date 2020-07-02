@@ -29399,7 +29399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [],
@@ -29696,21 +29696,6 @@
               "value": 1
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 209,
-          "layer": "",
-          "locked": false,
-          "name": "VetorPlataformaReto",
-          "width": 143,
-          "x": 2612,
-          "y": 225,
-          "zOrder": 26,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -30150,6 +30135,51 @@
           "x": 2197,
           "y": 64,
           "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3272,
+          "y": 92,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 209,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 143,
+          "x": 2612,
+          "y": 225,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 194,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaMovel",
+          "width": 147,
+          "x": 3055,
+          "y": 90,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
