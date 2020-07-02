@@ -1067,6 +1067,15 @@
         "name": "Arquivos\\F- Final2.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/F- Final3.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\F- Final3.PNG",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -35463,6 +35472,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\F- Final2.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\F- Final3.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
