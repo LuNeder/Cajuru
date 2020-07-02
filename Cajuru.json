@@ -6035,7 +6035,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.688
+        "zoomFactor": 0.76
       },
       "objectsGroups": [],
       "variables": [],
@@ -6148,13 +6148,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 206,
+          "height": 218,
           "layer": "",
           "locked": false,
           "name": "CREDITOS",
           "width": 796,
-          "x": 0,
-          "y": 259,
+          "x": 4,
+          "y": 252,
           "zOrder": 200003,
           "numberProperties": [],
           "stringProperties": [],
@@ -6444,7 +6444,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "CRÉDITOS\n\n- Desenvolvimento: Lu Neder (Lucas Neder)\n- Idealização: Lu Neder (Lucas Neder)\n- Diego: Diego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.",
+          "string": "CRÉDITOS\n\n- Desenvolvimento: Lu Neder (Lucas Neder)\n- Idealização: Lu Neder (Lucas Neder)\n- Controles Mobile: Exemplo do GDevelop com algumas alterações\n- Diego: Diego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.",
           "font": "",
           "characterSize": 18,
           "color": {
