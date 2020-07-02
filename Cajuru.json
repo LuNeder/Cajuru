@@ -29399,7 +29399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.874
       },
       "objectsGroups": [],
       "variables": [],
@@ -29587,14 +29587,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 265,
+          "height": 375,
           "layer": "",
           "locked": false,
           "name": "Carrilhao",
-          "width": 299,
-          "x": 4775,
-          "y": 130,
-          "zOrder": 24,
+          "width": 370,
+          "x": 4671,
+          "y": 16,
+          "zOrder": 2,
           "numberProperties": [
             {
               "name": "animation",
