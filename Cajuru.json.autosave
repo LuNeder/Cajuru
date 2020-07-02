@@ -35359,7 +35359,12 @@
           "x": 93,
           "y": 6,
           "zOrder": 2,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -35389,6 +35394,21 @@
           "x": 0,
           "y": 484,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "RelogiosFim",
+          "width": 512,
+          "x": 209,
+          "y": 85,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35598,6 +35618,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "RelogiosFim",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -35830,9 +35869,288 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "33"
+              ],
+              "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou todos os 33 relógios que estavam em seu caminho? Nossa, você realmente se dedicou!\nIsso é mais que suficiente, daria para ir e voltar algumas vezes!\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Fim",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "33"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "22"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou\" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Não são todos que apareceram em seu caminho, mas ainda assim é muito.\nIsso é o suficiente para 2 usos do portal, então fica tranquilo que você chegará bem!\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Fim",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "22"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "11"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou\" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios. Isso é pouco, mas é suficiente para ir com segurança.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Fim",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "11"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou só\" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios. Isso é muito pouco, não é suficiente.\nEu vou completar com uns relógios que eu achei no cofre do castelo, mas eu posso acabar tendo problemas aqui por causa disso.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Fim",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você não pegou nenhum relógio? Tá de brincadeira? Que absurdo!\nEu vou usar uns relógios que eu achei no cofre do castelo, mas eu posso acabar tendo problemas aqui por causa disso. Você devia ter se dedicado mais.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Fim",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
