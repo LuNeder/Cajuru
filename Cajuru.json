@@ -4403,9 +4403,6 @@
         },
         {
           "name": "RelogioAnalogicoEstatico"
-        },
-        {
-          "name": "Claudio"
         }
       ]
     },
@@ -32159,7 +32156,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5
+        "zoomFactor": 0.476
       },
       "objectsGroups": [],
       "variables": [],
@@ -32327,8 +32324,8 @@
           "locked": false,
           "name": "Claudio",
           "width": 310,
-          "x": 4282,
-          "y": 163,
+          "x": 4283,
+          "y": 178,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -32352,21 +32349,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 79,
-          "layer": "UI",
-          "locked": false,
-          "name": "UIPontos",
-          "width": 116,
-          "x": 946,
-          "y": 0,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 72,
           "layer": "UI",
           "locked": false,
@@ -32381,15 +32363,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 60,
           "layer": "UI",
           "locked": false,
-          "name": "UIPontosTexto",
-          "width": 0,
-          "x": 994,
-          "y": 21,
-          "zOrder": 15,
+          "name": "ClaudioVidaUI",
+          "width": 139,
+          "x": 926,
+          "y": 3,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32408,6 +32390,15 @@
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
               "HasJustFired": false
+            },
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 1000,
+              "DamageCooldown": 2.5,
+              "MaxHealth": 1000,
+              "IsJustDamaged": false,
+              "CooldownActive": false
             },
             {
               "name": "TimedBackAndForthMirroredMovement",
@@ -32628,6 +32619,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "ClaudioVidaUI",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": ":N/A:",
+          "font": "",
+          "characterSize": 57,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -34370,6 +34380,110 @@
               "parameters": [
                 "Claudio",
                 "\"DelayTiroRel\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ClaudioVidaUI",
+                "=",
+                "ToString(Claudio.Health::Health()) + \"\n \n⠀\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "ClaudioVidaUI",
+                "\"right\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Claudio",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "Claudio",
+                "",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Claudio",
+                "Health",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Claudio",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
