@@ -1040,6 +1040,15 @@
         "name": "Arquivos\\I-Claudio-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -32165,7 +32174,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.548
+        "zoomFactor": 0.428
       },
       "objectsGroups": [],
       "variables": [],
@@ -32423,8 +32432,8 @@
           "locked": false,
           "name": "RelogioAnalogicoAtirador",
           "width": 0,
-          "x": 1385,
-          "y": 80,
+          "x": 1235,
+          "y": 85,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -32467,7 +32476,7 @@
           "layer": "",
           "locked": false,
           "name": "VetorPlataformaReto",
-          "width": 220,
+          "width": 224,
           "x": 1063,
           "y": 198,
           "zOrder": 18,
@@ -32498,45 +32507,10 @@
           "locked": false,
           "name": "RelogioAnalogicoEstatico",
           "width": 0,
-          "x": 1143,
+          "x": 1158,
           "y": 218,
           "zOrder": 22,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 185,
-          "layer": "",
-          "locked": false,
-          "name": "VetorPlataformaMovel",
-          "width": 156,
-          "x": 1507,
-          "y": 118,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45.9348,
-          "customSize": true,
-          "height": 43,
-          "layer": "",
-          "locked": false,
-          "name": "RelogioAnalogicoEstatico",
-          "width": 165,
-          "x": 948,
-          "y": 246,
-          "zOrder": 24,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -32584,6 +32558,96 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 522,
+          "y": 108,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 363,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaRampa",
+          "width": 792,
+          "x": 2129,
+          "y": 121,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3897,
+          "y": 367,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3948,
+          "y": 278,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3879,
+          "y": 207,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "width": 0,
+          "x": 3813,
+          "y": 136,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -32604,7 +32668,7 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 1000,
-              "DamageCooldown": 2.5,
+              "DamageCooldown": 2,
               "MaxHealth": 1000,
               "IsJustDamaged": false,
               "CooldownActive": false
@@ -33033,6 +33097,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -34873,7 +34976,7 @@
               "parameters": [
                 "Claudio",
                 "Health",
-                "50",
+                "25",
                 ""
               ],
               "subInstructions": []
@@ -34979,6 +35082,29 @@
               },
               "parameters": [
                 "Claudio",
+                "=",
+                "7000"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "RelogioAnalogicoAtirador"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "RelogioAnalogicoAtirador",
                 "=",
                 "7000"
               ],
