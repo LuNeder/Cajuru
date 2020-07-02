@@ -32165,7 +32165,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.476
+        "zoomFactor": 0.26
       },
       "objectsGroups": [],
       "variables": [],
@@ -34468,7 +34468,7 @@
               "parameters": [
                 "Claudio",
                 "\"DelayTiroRel\"",
-                "3"
+                "2"
               ],
               "subInstructions": []
             },
@@ -34490,8 +34490,8 @@
               "parameters": [
                 "",
                 "TiroRELOGIO",
-                "Claudio.X()",
-                "Claudio.Y()",
+                "Claudio.X()+31",
+                "Claudio.Y()+94",
                 ""
               ],
               "subInstructions": []
