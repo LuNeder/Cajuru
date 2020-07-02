@@ -1076,6 +1076,24 @@
         "name": "Arquivos\\F- Final3.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/portal-png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\portal-png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/F- Final4.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\F- Final4.PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -35518,6 +35536,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\F- Final4.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -36368,16 +36415,36 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -58.3992,
           "customSize": true,
-          "height": 150,
+          "height": 156,
           "layer": "",
           "locked": false,
           "name": "Diego",
-          "width": 83,
-          "x": 321,
-          "y": 322,
-          "zOrder": 2,
+          "width": 96,
+          "x": 811,
+          "y": 256,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 43.7546,
+          "customSize": true,
+          "height": 290,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "width": 240,
+          "x": 720,
+          "y": 152,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36403,6 +36470,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\C- Background 10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\portal-png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
