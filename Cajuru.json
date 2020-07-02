@@ -33127,7 +33127,7 @@
               "parameters": [
                 "RelogiosDisponiveisFaseAnterior",
                 "=",
-                "3"
+                "0"
               ],
               "subInstructions": []
             },
