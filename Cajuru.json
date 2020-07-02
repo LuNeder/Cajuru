@@ -32147,7 +32147,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.452
+        "zoomFactor": 0.38
       },
       "objectsGroups": [],
       "variables": [],
@@ -32286,6 +32286,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 278,
+          "layer": "",
+          "locked": false,
+          "name": "Carrilhao",
+          "width": 616,
+          "x": 5490,
+          "y": 118,
+          "zOrder": 10,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -32330,27 +32350,6 @@
         }
       ],
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Carrilhao",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
         {
           "disabled": false,
           "folded": false,
@@ -33051,7 +33050,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"10\""
+                "\"11\""
               ],
               "subInstructions": []
             },
@@ -33953,6 +33952,27 @@
           },
           "comment": "Aqui termina o que deve ser colocado em todas as fases",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Carrilhao",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
