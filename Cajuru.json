@@ -4403,6 +4403,9 @@
         },
         {
           "name": "RelogioAnalogicoEstatico"
+        },
+        {
+          "name": "Claudio"
         }
       ]
     },
@@ -32156,7 +32159,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.26
+        "zoomFactor": 0.5
       },
       "objectsGroups": [],
       "variables": [],
@@ -32315,6 +32318,81 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 365,
+          "layer": "",
+          "locked": false,
+          "name": "Claudio",
+          "width": 310,
+          "x": 4282,
+          "y": 163,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 906,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 326,
+          "x": 4919,
+          "y": -306,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontos",
+          "width": 116,
+          "x": 946,
+          "y": 0,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "UI",
+          "locked": false,
+          "name": "ContadorDeVidas",
+          "width": 142,
+          "x": 0,
+          "y": 2,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "UIPontosTexto",
+          "width": 0,
+          "x": 994,
+          "y": 21,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -32337,7 +32415,7 @@
               "Vertical": false,
               "Speed": 110,
               "Distance": 200,
-              "Timeout": 2,
+              "Timeout": 40,
               "StartPosition": 0,
               "LastPosition": 0,
               "stuck": false

@@ -1022,6 +1022,15 @@
         "name": "Arquivos\\C- Background 10.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Claudio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Claudio.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4394,6 +4403,9 @@
         },
         {
           "name": "RelogioAnalogicoEstatico"
+        },
+        {
+          "name": "Claudio"
         }
       ]
     },
@@ -32147,7 +32159,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.38
+        "zoomFactor": 0.092
       },
       "objectsGroups": [],
       "variables": [],
@@ -32306,9 +32318,263 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 365,
+          "layer": "",
+          "locked": false,
+          "name": "Claudio",
+          "width": 310,
+          "x": 4282,
+          "y": 163,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 906,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "width": 326,
+          "x": 4919,
+          "y": -306,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "UIPontos",
+          "width": 116,
+          "x": 946,
+          "y": 0,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "ContadorDeVidas",
+          "width": 142,
+          "x": 0,
+          "y": 2,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "name": "Claudio",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "FireBullet",
+              "type": "FireBullet::FireBullet",
+              "FireCooldown": 0.1,
+              "HasJustFired": false
+            },
+            {
+              "name": "TimedBackAndForthMirroredMovement",
+              "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+              "Vertical": false,
+              "Speed": 110,
+              "Distance": 200,
+              "Timeout": 40,
+              "StartPosition": 0,
+              "LastPosition": 0,
+              "stuck": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "I-RelogioAnalogico",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Arquivos\\I- Claudio.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 46.6364,
+                        "y": 43.4545
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 46.4545,
+                        "y": 43.6364
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 95.4514,
+                            "y": 58.8889
+                          },
+                          {
+                            "x": 100.451,
+                            "y": 79.4444
+                          },
+                          {
+                            "x": 96.5625,
+                            "y": 95
+                          },
+                          {
+                            "x": 87.1181,
+                            "y": 111.111
+                          },
+                          {
+                            "x": 73.7847,
+                            "y": 117.222
+                          },
+                          {
+                            "x": 58.7847,
+                            "y": 121.667
+                          },
+                          {
+                            "x": 39,
+                            "y": 117.5
+                          },
+                          {
+                            "x": 25.5,
+                            "y": 107.75
+                          },
+                          {
+                            "x": 17.6736,
+                            "y": 95.5556
+                          },
+                          {
+                            "x": 16.0069,
+                            "y": 89.4444
+                          },
+                          {
+                            "x": 14.3403,
+                            "y": 74.4444
+                          },
+                          {
+                            "x": 16.0069,
+                            "y": 66.1111
+                          },
+                          {
+                            "x": 18.2292,
+                            "y": 58.8889
+                          },
+                          {
+                            "x": 23.75,
+                            "y": 49.75
+                          },
+                          {
+                            "x": 31.0069,
+                            "y": 40.5556
+                          },
+                          {
+                            "x": 45.4514,
+                            "y": 31.1111
+                          },
+                          {
+                            "x": 60.4514,
+                            "y": 29.4444
+                          },
+                          {
+                            "x": 74.3403,
+                            "y": 34.4444
+                          },
+                          {
+                            "x": 84.8958,
+                            "y": 43.3333
+                          }
+                        ],
+                        [
+                          {
+                            "x": 3,
+                            "y": 77.75
+                          },
+                          {
+                            "x": 13.75,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 19.75,
+                            "y": 91
+                          },
+                          {
+                            "x": 6,
+                            "y": 91.5
+                          }
+                        ],
+                        [
+                          {
+                            "x": 56.75,
+                            "y": 1
+                          },
+                          {
+                            "x": 76.5,
+                            "y": 6.5
+                          },
+                          {
+                            "x": 78.75,
+                            "y": 43.25
+                          },
+                          {
+                            "x": 39.25,
+                            "y": 43.25
+                          },
+                          {
+                            "x": 41.5,
+                            "y": 7.25
+                          }
+                        ],
+                        [
+                          {
+                            "x": 22,
+                            "y": 35
+                          },
+                          {
+                            "x": 95.5,
+                            "y": 34.25
+                          },
+                          {
+                            "x": 96.25,
+                            "y": 43.75
+                          },
+                          {
+                            "x": 22,
+                            "y": 42.75
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Background10",
           "tags": "",
