@@ -2689,16 +2689,16 @@
                     ],
                     [
                       {
-                        "x": 0,
-                        "y": 225.556
+                        "x": 0.384615,
+                        "y": 236.923
                       },
                       {
                         "x": 11,
                         "y": 230
                       },
                       {
-                        "x": 11.6667,
-                        "y": 210.556
+                        "x": 11.9231,
+                        "y": 211.923
                       }
                     ]
                   ]
@@ -29399,7 +29399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.874
+        "zoomFactor": 0.85
       },
       "objectsGroups": [],
       "variables": [],
@@ -29601,6 +29601,136 @@
               "value": 2
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 909,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 245,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaRampa",
+          "width": 421,
+          "x": 122,
+          "y": 179,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 358,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 497,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 631,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "width": 0,
+          "x": 770,
+          "y": 352,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 333,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "width": 313,
+          "x": 654,
+          "y": 27,
+          "zOrder": 26,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -30347,7 +30477,7 @@
               "parameters": [
                 "FasesDesbloqueadas",
                 "=",
-                "\"9\""
+                "\"10\""
               ],
               "subInstructions": []
             },
