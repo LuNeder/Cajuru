@@ -4565,7 +4565,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.8364
+        "zoomFactor": 0.9564
       },
       "objectsGroups": [],
       "variables": [
@@ -4834,21 +4834,6 @@
           "x": 1009,
           "y": 575,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 10,
-          "y": 35,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5526,23 +5511,6 @@
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "name": "NewObject",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "behaviors": [],
-          "content": {
-            "text": "[url=https://fontmeme.com/pt/fontes-3d/][img]https://fontmeme.com/permalink/200703/df331bd734091e9ad801f1d19d7bd2cf.png[/img][/url]",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "#000000",
-            "fontFamily": "Arial",
-            "align": "left",
-            "wordWrap": true
           }
         }
       ],
@@ -37155,6 +37123,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Detector2",
+          "width": 0,
+          "x": -421,
+          "y": 644,
+          "zOrder": 200013,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 819,
+          "layer": "",
+          "locked": false,
+          "name": "caiu",
+          "width": 3296,
+          "x": 378,
+          "y": 3808,
+          "zOrder": 200014,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37176,6 +37174,45 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "Detector2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Detector",
@@ -37265,6 +37302,25 @@
           "variables": [],
           "behaviors": [],
           "string": "Para jogar de novo, vá em configurações e resete o progresso",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "caiu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Você esperou o suficiente e o Diego caiu!\n\nManda um print disso para diegoeasteregg@gmail.com",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -37454,6 +37510,44 @@
                 "502",
                 "=",
                 "495"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "Detector2",
+                "",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "caiu",
+                "=",
+                "194",
+                "=",
+                "305"
               ],
               "subInstructions": []
             }
