@@ -9,6 +9,8 @@ GitHub Releases (Betas já disponíveis): [https://github.com/LucasMNP/Cajuru/re
 
 Website: [https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio](https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio)
 
+Parte 2: [https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início](https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início)
+
 # Abrindo no GDevelop e compilando
 Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDrive\Construct\Cajuru
 
