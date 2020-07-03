@@ -6393,7 +6393,7 @@
           "locked": false,
           "name": "GameJolt",
           "width": 238,
-          "x": 262,
+          "x": 243,
           "y": 472,
           "zOrder": 200002,
           "numberProperties": [],
@@ -6423,7 +6423,7 @@
           "locked": false,
           "name": "Website",
           "width": 195,
-          "x": 576,
+          "x": 542,
           "y": 474,
           "zOrder": 200004,
           "numberProperties": [],
@@ -6471,6 +6471,21 @@
           "x": 518,
           "y": 86,
           "zOrder": 200007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "Parte2",
+          "width": 265,
+          "x": 783,
+          "y": 470,
+          "zOrder": 200008,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6756,9 +6771,28 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "GitHub: https://github.com/LucasMNP/Cajuru\nGameJolt: https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite: https://bit.ly/DiegVet",
+          "string": "GitHub: https://github.com/LucasMNP/Cajuru\nGameJolt: https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite: https://bit.ly/DiegVet\nParte 2 do jogo: http://bit.ly/DiegVet2",
           "font": "",
           "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Parte2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ver parte 2 do jogo",
+          "font": "",
+          "characterSize": 54,
           "color": {
             "b": 255,
             "g": 255,
@@ -7017,6 +7051,70 @@
               },
               "parameters": [
                 "\"https://github.com/LucasMNP/Cajuru\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Parte2",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PopStartedTouch"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início\"",
                 ""
               ],
               "subInstructions": []
@@ -36602,7 +36700,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.472
       },
       "objectsGroups": [],
       "variables": [],
@@ -37291,6 +37389,21 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "locked": false,
+          "name": "Parte2",
+          "width": 1477,
+          "x": 1998,
+          "y": 3314,
+          "zOrder": 200015,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37459,6 +37572,25 @@
           "variables": [],
           "behaviors": [],
           "string": "Você esperou o suficiente e o Diego caiu!\n\nManda um print disso para diegoeasteregg@gmail.com",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Parte2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Veja Diego no Mundo dos Vetores: A Revolução (Parte 2 desse jogo) em http://bit.ly/DiegVet2",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -37648,6 +37780,20 @@
                 "502",
                 "=",
                 "495"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Parte2",
+                "=",
+                "40",
+                "=",
+                "550"
               ],
               "subInstructions": []
             }
@@ -37843,6 +37989,78 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Parte2",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PopStartedTouch"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
