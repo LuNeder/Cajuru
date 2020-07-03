@@ -32246,7 +32246,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.116
+        "zoomFactor": 0.14
       },
       "objectsGroups": [],
       "variables": [],
@@ -36497,7 +36497,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.256
+        "zoomFactor": 0.184
       },
       "objectsGroups": [],
       "variables": [],
@@ -36510,8 +36510,8 @@
           "locked": false,
           "name": "Creditos",
           "width": 335,
-          "x": 363,
-          "y": 32,
+          "x": 382,
+          "y": 533,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -37056,6 +37056,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1505,
+          "layer": "",
+          "locked": false,
+          "name": "Detector",
+          "width": 2475,
+          "x": -707,
+          "y": -2993,
+          "zOrder": 200008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Menu",
+          "width": 0,
+          "x": 1331,
+          "y": 1089,
+          "zOrder": 200009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Volta",
+          "width": 0,
+          "x": 1128,
+          "y": 1222,
+          "zOrder": 200010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 289,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "width": 182,
+          "x": 564,
+          "y": 2874,
+          "zOrder": 200011,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Bravo",
+          "width": 804,
+          "x": 2580,
+          "y": 1612,
+          "zOrder": 200012,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37069,13 +37149,109 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "CRÉDITOS\n\n\nDesenvolvimento\nLu Neder (Lucas Neder)\n\nIdealização\nLu Neder (Lucas Neder)\n\nControles Mobile\nExemplo do GDevelop com algumas alterações\n\nDiego\nDiego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.\n\n\n\nDiego no Mundo dos Vetores é um projeto de código aberto\nO código-fonte está disponível em https://github.com/LucasMNP/Cajuru\nDiego no Mundo dos Vetores é licenciado sob a licença LaTeX\n\n\nDiego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução\n\n\nGitHub\nhttps://github.com/LucasMNP/Cajuru\nGameJolt\nhttps://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite\nhttps://bit.ly/DiegVet\n\n\nDiego no Mundo dos Vetores é uma obra fictícia. A única inspiração na realidade é a prova em que os ponteiros estavam invertidos. Qualquar outra semelhança com a realidade é mera coincidência.\n\n\n\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
+          "string": "FIM\n\n\nCRÉDITOS\n\n\nDesenvolvimento\nLu Neder (Lucas Neder)\n\nIdealização\nLu Neder (Lucas Neder)\n\nControles Mobile\nExemplo do GDevelop com algumas alterações\n\nDiego\nDiego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.\n\n\n\nDiego no Mundo dos Vetores é um projeto de código aberto\nO código-fonte está disponível em https://github.com/LucasMNP/Cajuru\nDiego no Mundo dos Vetores é licenciado sob a licença LaTeX\n\n\nDiego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução\n\n\nGitHub\nhttps://github.com/LucasMNP/Cajuru\nGameJolt\nhttps://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite\nhttps://bit.ly/DiegVet\n\n\nDiego no Mundo dos Vetores é uma obra fictícia. A única inspiração na realidade é a prova em que os ponteiros estavam invertidos. Qualquar outra semelhança com a realidade é mera coincidência.\n\n\n\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
           "font": "",
           "characterSize": 20,
           "color": {
             "b": 255,
             "g": 255,
             "r": 255
+          }
+        },
+        {
+          "name": "Detector",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Menu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Menu Principal",
+          "font": "",
+          "characterSize": 37,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Volta",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Diego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Bravo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Para jogar de novo, vá em configurações e resete o progresso",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -37113,7 +37289,7 @@
               "parameters": [
                 "Creditos",
                 "\"TimerC\"",
-                "0.03"
+                "0.02"
               ],
               "subInstructions": []
             }
@@ -37168,6 +37344,97 @@
               "parameters": [
                 "Creditos",
                 "\"TimerC\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Creditos",
+                "Detector",
+                "",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Menu",
+                "=",
+                "40",
+                "=",
+                "495"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Volta",
+                "=",
+                "147",
+                "=",
+                "76"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Diego",
+                "=",
+                "194",
+                "=",
+                "305"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Bravo",
+                "=",
+                "502",
+                "=",
+                "495"
               ],
               "subInstructions": []
             }
