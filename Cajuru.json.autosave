@@ -4837,6 +4837,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 10,
+          "y": 35,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5511,6 +5526,23 @@
             "b": 0,
             "g": 0,
             "r": 0
+          }
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "text": "[url=https://fontmeme.com/pt/fontes-3d/][img]https://fontmeme.com/permalink/200703/df331bd734091e9ad801f1d19d7bd2cf.png[/img][/url]",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
           }
         }
       ],
@@ -8466,21 +8498,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 289,
-          "y": 357,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -8900,10 +8917,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Quit"
+                "value": "Scene"
               },
               "parameters": [
-                ""
+                "",
+                "\"Main Menu\"",
+                "yes"
               ],
               "subInstructions": []
             }
