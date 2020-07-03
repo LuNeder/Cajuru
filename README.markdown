@@ -1,5 +1,6 @@
 # Cajuru
 ### Diego no Mundo dos Vetores
+Controle Diego, nosso querido professor de física, e ajude-o a sair do Mundo dos Vetores para voltar à sala de aula
 
 # Jogar (EM BREVE)
 GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
