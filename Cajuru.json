@@ -4583,7 +4583,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.3804
+        "zoomFactor": 0.6684
       },
       "objectsGroups": [],
       "variables": [
@@ -4859,11 +4859,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 309,
+          "height": 310,
           "layer": "",
           "locked": false,
           "name": "Titulo",
-          "width": 815,
+          "width": 816,
           "x": 89,
           "y": -29,
           "zOrder": 18,
