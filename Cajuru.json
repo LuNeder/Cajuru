@@ -4651,7 +4651,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.3804
+        "zoomFactor": 0.6684
       },
       "objectsGroups": [],
       "variables": [
@@ -37843,7 +37843,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.33
+        "zoomFactor": 1.018
       },
       "objectsGroups": [],
       "variables": [],
@@ -37864,36 +37864,36 @@
           "initialVariables": []
         },
         {
-          "angle": -58.3992,
+          "angle": -0.594934,
           "customSize": true,
-          "height": 156,
+          "height": 427,
           "layer": "",
           "locked": false,
           "name": "Diego",
-          "width": 96,
-          "x": 811,
-          "y": 256,
-          "zOrder": 4,
+          "width": 246,
+          "x": -85,
+          "y": 343,
+          "zOrder": 7,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 5
+              "value": 0
             }
           ],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 43.7546,
+          "angle": 0,
           "customSize": true,
-          "height": 290,
+          "height": 466,
           "layer": "",
           "locked": false,
-          "name": "NewObject2",
-          "width": 240,
-          "x": 720,
-          "y": 152,
-          "zOrder": 3,
+          "name": "Titulo",
+          "width": 996,
+          "x": 55,
+          "y": 93,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
