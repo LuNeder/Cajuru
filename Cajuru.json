@@ -6172,7 +6172,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 0.448
       },
       "objectsGroups": [],
       "variables": [],
@@ -36437,18 +36437,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Creditos",
       "name": "Creditos",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -36460,13 +36460,684 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2211,
+          "layer": "",
+          "locked": false,
+          "name": "Creditos",
+          "width": 335,
+          "x": 363,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "locked": false,
+          "name": "LICENSE",
+          "width": 523,
+          "x": 576.259,
+          "y": 269.759,
+          "zOrder": 200000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "width": 0,
+          "x": 617.259,
+          "y": 482.759,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "width": 185,
+          "x": 604.259,
+          "y": 749.759,
+          "zOrder": 200001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "locked": false,
+          "name": "GameJolt",
+          "width": 238,
+          "x": 839.259,
+          "y": 749.759,
+          "zOrder": 200002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "",
+          "locked": false,
+          "name": "CREDITOS",
+          "width": 796,
+          "x": 581.259,
+          "y": 529.759,
+          "zOrder": 200003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 123,
+          "layer": "",
+          "locked": false,
+          "name": "Website",
+          "width": 195,
+          "x": 1153.26,
+          "y": 751.759,
+          "zOrder": 200004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Voltar",
+          "width": 0,
+          "x": 1566.26,
+          "y": 286.759,
+          "zOrder": 200005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 1166.26,
+          "y": 506.759,
+          "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LinksMobile",
+          "width": 0,
+          "x": 1095.26,
+          "y": 363.759,
+          "zOrder": 200007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "locked": false,
+          "name": "LICENSE",
+          "width": 523,
+          "x": 888.509,
+          "y": 398.401,
+          "zOrder": 200000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "width": 0,
+          "x": 929.509,
+          "y": 611.401,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "width": 185,
+          "x": 916.509,
+          "y": 878.401,
+          "zOrder": 200001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "locked": false,
+          "name": "GameJolt",
+          "width": 238,
+          "x": 1151.51,
+          "y": 878.401,
+          "zOrder": 200002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "",
+          "locked": false,
+          "name": "CREDITOS",
+          "width": 796,
+          "x": 893.509,
+          "y": 658.401,
+          "zOrder": 200003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 123,
+          "layer": "",
+          "locked": false,
+          "name": "Website",
+          "width": 195,
+          "x": 1465.51,
+          "y": 880.401,
+          "zOrder": 200004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Voltar",
+          "width": 0,
+          "x": 1878.51,
+          "y": 415.401,
+          "zOrder": 200005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 1478.51,
+          "y": 635.401,
+          "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LinksMobile",
+          "width": 0,
+          "x": 1407.51,
+          "y": 492.401,
+          "zOrder": 200007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "locked": false,
+          "name": "LICENSE",
+          "width": 523,
+          "x": 65.0292,
+          "y": 109.61,
+          "zOrder": 200000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "width": 0,
+          "x": 106.029,
+          "y": 322.61,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "width": 185,
+          "x": 93.0292,
+          "y": 589.61,
+          "zOrder": 200001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "locked": false,
+          "name": "GameJolt",
+          "width": 238,
+          "x": 328.029,
+          "y": 589.61,
+          "zOrder": 200002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "",
+          "locked": false,
+          "name": "CREDITOS",
+          "width": 796,
+          "x": 70.0292,
+          "y": 369.61,
+          "zOrder": 200003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 123,
+          "layer": "",
+          "locked": false,
+          "name": "Website",
+          "width": 195,
+          "x": 642.029,
+          "y": 591.61,
+          "zOrder": 200004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Voltar",
+          "width": 0,
+          "x": 1055.03,
+          "y": 126.61,
+          "zOrder": 200005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 655.029,
+          "y": 346.61,
+          "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LinksMobile",
+          "width": 0,
+          "x": 584.029,
+          "y": 203.61,
+          "zOrder": 200007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "locked": false,
+          "name": "LICENSE",
+          "width": 523,
+          "x": 107.742,
+          "y": 187.735,
+          "zOrder": 200000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "width": 0,
+          "x": 148.742,
+          "y": 400.735,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "width": 185,
+          "x": 135.742,
+          "y": 667.735,
+          "zOrder": 200001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "locked": false,
+          "name": "GameJolt",
+          "width": 238,
+          "x": 370.742,
+          "y": 667.735,
+          "zOrder": 200002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "",
+          "locked": false,
+          "name": "CREDITOS",
+          "width": 796,
+          "x": 112.742,
+          "y": 447.735,
+          "zOrder": 200003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 123,
+          "layer": "",
+          "locked": false,
+          "name": "Website",
+          "width": 195,
+          "x": 684.742,
+          "y": 669.735,
+          "zOrder": 200004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Voltar",
+          "width": 0,
+          "x": 1097.74,
+          "y": 204.735,
+          "zOrder": 200005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "irreal",
+          "width": 398,
+          "x": 697.742,
+          "y": 424.735,
+          "zOrder": 200006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LinksMobile",
+          "width": 0,
+          "x": 626.742,
+          "y": 281.735,
+          "zOrder": 200007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Creditos",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "CRÉDITOS\n\n\nDesenvolvimento\nLu Neder (Lucas Neder)\n\nIdealização\nLu Neder (Lucas Neder)\n\nControles Mobile\nExemplo do GDevelop com algumas alterações\n\nDiego\nDiego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.\n\n\n\nDiego no Mundo dos Vetores é um projeto de código aberto\nO código-fonte está disponível em https://github.com/LucasMNP/Cajuru\nDiego no Mundo dos Vetores é licenciado sob a licença LaTeX\n\n\nDiego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução\n\n\n\n\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "Creditos",
+                "\"center\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Creditos",
+                "\"TimerC\"",
+                "0.03"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Creditos",
+                "=",
+                "Creditos.Y()-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Creditos",
+                "\"TimerC\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Creditos",
+                "\"TimerC\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "name": "",
