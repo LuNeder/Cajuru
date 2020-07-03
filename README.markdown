@@ -1,10 +1,10 @@
 # Cajuru
 ### Diego no Mundo dos Vetores
 
-# Download (EM BREVE)
+# Jogar (EM BREVE)
 GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
 
-GitHub Releases: [https://github.com/LucasMNP/Cajuru/releases](https://github.com/LucasMNP/Cajuru/releases)
+GitHub Releases (Betas já disponíveis): [https://github.com/LucasMNP/Cajuru/releases](https://github.com/LucasMNP/Cajuru/releases)
 
 Website: [https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio](https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio)
 
