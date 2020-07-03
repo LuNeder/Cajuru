@@ -36602,7 +36602,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.16
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
@@ -37271,6 +37271,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 347,
+          "layer": "",
+          "locked": false,
+          "name": "Titulo",
+          "width": 984,
+          "x": -4,
+          "y": 2898,
+          "zOrder": 200010,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37429,7 +37449,7 @@
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "caiu",
           "smoothed": true,
@@ -37666,6 +37686,86 @@
                 "194",
                 "=",
                 "305"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetOutline"
+              },
+              "parameters": [
+                "caiu",
+                "\"255;255;255\"",
+                "10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Titulo",
+                "=",
+                "170"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Titulo",
+                "=",
+                "Creditos.Y()+2200"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Titulo",
+                "=",
+                "170"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Titulo",
+                "=",
+                "170"
               ],
               "subInstructions": []
             }
