@@ -6172,7 +6172,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 0.736
       },
       "objectsGroups": [],
       "variables": [],
@@ -36460,7 +36460,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.28
+        "zoomFactor": 0.184
       },
       "objectsGroups": [],
       "variables": [],
@@ -37032,7 +37032,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "CRÉDITOS\n\n\nDesenvolvimento\nLu Neder (Lucas Neder)\n\nIdealização\nLu Neder (Lucas Neder)\n\nControles Mobile\nExemplo do GDevelop com algumas alterações\n\nDiego\nDiego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.\n\n\n\nDiego no Mundo dos Vetores é um projeto de código aberto\nO código-fonte está disponível em https://github.com/LucasMNP/Cajuru\nDiego no Mundo dos Vetores é licenciado sob a licença LaTeX\n\n\nDiego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução\n\n\n\n\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
+          "string": "CRÉDITOS\n\n\nDesenvolvimento\nLu Neder (Lucas Neder)\n\nIdealização\nLu Neder (Lucas Neder)\n\nControles Mobile\nExemplo do GDevelop com algumas alterações\n\nDiego\nDiego Scoca\n\nTenho as devidas autorizações para o uso da imagem do Diego e para a publicação desse jogo. Qualquer projeto derivado deve remover qualquer rosto humano incluído nesse jogo original, a não ser que a intenção do projeto derivado seja ser mesclado a esse jogo, por exemplo por meio de uma pull request.\n\n\n\nDiego no Mundo dos Vetores é um projeto de código aberto\nO código-fonte está disponível em https://github.com/LucasMNP/Cajuru\nDiego no Mundo dos Vetores é licenciado sob a licença LaTeX\n\n\nDiego, Vetoriana e Claudio retornarão em Diego no Mundo dos Vetores: A Revolução\n\n\nGitHub\nhttps://github.com/LucasMNP/Cajuru\nGameJolt\nhttps://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite\nhttps://bit.ly/DiegVet\n\n\nDiego no Mundo dos Vetores é uma obra fictícia. A única inspiração na realidade é a prova em que os ponteiros estavam invertidos. Qualquar outra semelhança com a realidade é mera coincidência.\n\n\n\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
           "font": "",
           "characterSize": 20,
           "color": {
