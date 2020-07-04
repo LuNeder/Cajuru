@@ -5654,7 +5654,7 @@
           "behaviors": [],
           "string": "",
           "font": "",
-          "characterSize": 35,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -6301,7 +6301,7 @@
                 "value": "StrEqual"
               },
               "parameters": [
-                "VariableString(versao)",
+                "VariableString(versao) + \"\n\"",
                 "!=",
                 "VariableString(versaonova)"
               ],
