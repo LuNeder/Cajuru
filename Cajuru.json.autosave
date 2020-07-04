@@ -16,9 +16,9 @@
     "packageName": "com.lumh.cajuru",
     "projectFile": "E:\\GoogleDrive\\Construct\\Cajuru\\Cajuru.json",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
     "name": "Diego no Mundo dos Vetores",
@@ -4651,7 +4651,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5724
+        "zoomFactor": 1.0044
       },
       "objectsGroups": [],
       "variables": [
