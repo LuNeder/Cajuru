@@ -6312,18 +6312,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::SetOutline"
-              },
-              "parameters": [
-                "atualizacao",
-                "\"0;0;0\"",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
