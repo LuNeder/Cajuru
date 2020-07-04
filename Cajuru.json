@@ -4666,6 +4666,10 @@
         {
           "name": "TempVarRelogios",
           "value": ""
+        },
+        {
+          "name": "versao",
+          "value": ""
         }
       ],
       "instances": [
@@ -5610,7 +5614,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "v1.1.0",
+          "string": "versao",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -6213,6 +6217,35 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "var versao = runtimeScene.getVariables().get(\"versao\");\nlet v = runtimeScene.getGame().getGameData().properties.version;\nversao.setString(v);",
+          "parameterObjects": "versao",
+          "useStrict": true
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "versao",
+                "=",
+                "VariableString(versao)"
               ],
               "subInstructions": []
             }
