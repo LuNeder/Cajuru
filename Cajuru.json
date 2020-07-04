@@ -4670,6 +4670,10 @@
         {
           "name": "versao",
           "value": ""
+        },
+        {
+          "name": "versaonova",
+          "value": ""
         }
       ],
       "instances": [
@@ -4921,8 +4925,8 @@
           "locked": false,
           "name": "versao",
           "width": 0,
-          "x": 1009,
-          "y": 575,
+          "x": 987,
+          "y": 569,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -4945,6 +4949,21 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "atualizacao",
+          "width": 1057,
+          "x": 2,
+          "y": 526,
+          "zOrder": 2001,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -5622,6 +5641,25 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "atualizacao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -6202,30 +6240,6 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SendRequest"
-              },
-              "parameters": [
-                "UPDATER",
-                "",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": "var versao = runtimeScene.getVariables().get(\"versao\");\nlet v = runtimeScene.getGame().getGameData().properties.version;\nversao.setString(v);",
           "parameterObjects": "versao",
@@ -6246,6 +6260,76 @@
                 "versao",
                 "=",
                 "VariableString(versao)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendRequest"
+              },
+              "parameters": [
+                "\"https://raw.githubusercontent.com/\"",
+                "\"/LucasMNP/Cajuru/master/last-stable\"",
+                "",
+                "\"GET\"",
+                "",
+                "versaonova"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "VariableString(versao)",
+                "!=",
+                "VariableString(versaonova)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetOutline"
+              },
+              "parameters": [
+                "atualizacao",
+                "\"0;0;0\"",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "atualizacao",
+                "=",
+                "\"Uma nova atualização está disponível. Sua versão é \" + VariableString(versao) + \" e a versão mais recente é \" + VariableString(versaonova)"
               ],
               "subInstructions": []
             }
