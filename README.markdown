@@ -5,7 +5,7 @@ Controle Diego, nosso querido professor de física, e ajude-o a sair do Mundo do
 # Jogar
 GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
 
-GitHub Releases: [https://github.com/LucasMNP/Cajuru/releases](https://github.com/LuNeder/Cajuru/releases)
+GitHub Releases: [https://github.com/LuNeder/Cajuru/releases](https://github.com/LuNeder/Cajuru/releases)
 
 Website: [https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio](https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio)
 
@@ -30,7 +30,7 @@ Para compilar para .appimage,.exe,.app,.ipa,.apk,etc
 
 Para fazer uma pull request, descreva detalhadamente tudo que foi alterado.
 
-# [Licença](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
+# [Licença](https://github.com/LuNeder/Cajuru/blob/master/LICENSE)
 
 Copyright 2020 Lu Neder
 
@@ -46,10 +46,10 @@ This work has the LPPL maintenance status `maintained'.
 
 The Current Maintainer of this work is Lu Neder.
 
-This work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.
+This work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LuNeder/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.
 
 
 
 
 
-[https://github.com/LucasMNP/Cajuru/blob/master/LICENSE](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
+[https://github.com/LuNeder/Cajuru/blob/master/LICENSE](https://github.com/LuNeder/Cajuru/blob/master/LICENSE)
