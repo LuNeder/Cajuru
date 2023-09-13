@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "Diego no Mundo dos Vetores",
     "description": "",
     "author": "Lu Neder",
@@ -73,7 +73,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
